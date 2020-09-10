@@ -1,5 +1,6 @@
 body {background-color:black}
 #wrapper {max-width:1000px; overflow:hidden; align-content:center; margin:0 auto}
+p {cursor:default}
 
 /*styl czasomierza*/
 #timer {color:aqua; font-size: 50px; font-style:bold; margin:0 auto; width:350px; text-align:center}
@@ -11,12 +12,12 @@ body {background-color:black}
 
 /*styl przycisków*/
 .row {margin:10px auto; width:300px}
-#starter{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique}
+#starter{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique; text-align:center; cursor:pointer}
 /*
 #twenty{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique}
 #thirty{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique}
 */
-#reset{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique}
+#reset{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique; text-align:center; cursor:pointer}
 /*
 #fifty{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique}
 #sixty{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique}
