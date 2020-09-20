@@ -17,12 +17,58 @@
             <p class="between">:</p>
             <p id="milisecond">00</p>
         </div>
-        <div class="row"><p id="starter">START</p><p id="reset">RESET</p></div>
-<!--
-        <div class="row"><p id="twenty">20 sec</p><p id="fifty">50 sec</p></div>
-        <div class="row"><p id="thirty">30 sec</p><p id="sixty">60 sec</p></div>
-        <div id="stop">STOP</div>
--->
+        <div class="row"><p class = "button" id="starter">START</p><p class = "button" id="reset">RESET</p></div>
+        <hr>
+        <div class="feat">
+            <h2>Start on timeout</h2>
+            <div class="inpBlock">
+                <p class="inpDesc">Hours</p>
+                <input type="text" class="input" id="timeOutH" value="0">
+            </div>            
+            <div class="inpBlock">
+                <p class="inpDesc">Minutes</p>
+                <input type="text" class="input" id="timeOutM" value="0">
+            </div>
+            <div class="inpBlock">
+                <p class="inpDesc">Seconds</p>
+                <input type="text" class="input" id="timeOutS" value="0">
+            </div>
+            <p class = "button" id="tOSet">SET</p>
+        </div> 
+        <hr>
+        <div class="feat">
+            <h2>Beep at set time</h2>
+            <div class="inpBlock">
+                <p class="inpDesc">Hours</p>
+                <input type="text" class="input" id="setH" value="0">
+            </div>            
+            <div class="inpBlock">
+                <p class="inpDesc">Minutes</p>
+                <input type="text" class="input" id="setM" value="0">
+            </div>
+            <div class="inpBlock">
+                <p class="inpDesc">Seconds</p>
+                <input type="text" class="input" id="setS" value="0">
+            </div>
+            <p class = "button" id="setting">SET</p>
+        </div> 
+        <hr>
+        <div class="feat">
+            <h2>Beep on interval</h2>
+            <div class="inpBlock">
+                <p class="inpDesc">Hours</p>
+                <input type="text" class="input" id="intH" value="0">
+            </div>            
+            <div class="inpBlock">
+                <p class="inpDesc">Minutes</p>
+                <input type="text" class="input" id="intM" value="0">
+            </div>
+            <div class="inpBlock">
+                <p class="inpDesc">Seconds</p>
+                <input type="text" class="input" id="intS" value="0">
+            </div>
+            <p class = "button" id="intSet">SET</p>
+        </div>
     </div>
     <script src="js/stopwatch.js"></script>
     </body>

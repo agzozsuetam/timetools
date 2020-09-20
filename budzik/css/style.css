@@ -1,0 +1,82 @@
+body {
+    background-color:black
+}
+
+#wrapper {
+    max-width:1000px; 
+    overflow:hidden; 
+    align-content:center; 
+    margin:0 auto
+}
+
+p {
+    cursor:default
+}
+
+h2 {
+    color:aqua; 
+    margin: 10px auto
+}
+
+#timer {
+    color:aqua; 
+    font-size: 100px; 
+    font-style:bold; 
+    margin:0 auto; 
+    width:350px; 
+    text-align:center
+}
+
+#hour {
+    display:inline-block
+}
+
+#minute {
+    display:inline-block; 
+    vertical-align:top
+}
+
+.between {
+    display:inline-block; 
+    vertical-align:top
+}
+
+.row {
+    margin:10px auto; 
+    width:380px
+}
+
+.button {
+    background:linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(29,231,222,1) 39%, rgba(0,212,255,1) 100%);
+    margin:15px auto; 
+    width:120px; 
+    padding:20px; 
+    font-size:30px; 
+    font-style:oblique; 
+    text-align:center; 
+    cursor:pointer
+}
+
+.setButton{
+    background:linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(29,231,222,1) 39%, rgba(0,212,255,1) 100%); 
+    display:inline-block; 
+    vertical-align:top; 
+    margin:0 15px; 
+    width:20px; 
+    padding:20px; 
+    font-size:30px; 
+    font-style:oblique; 
+    text-align:center; 
+    cursor:pointer
+}
+
+*[class$="utton"]:hover{
+    transform:scale(0.95);
+    transition:all .2s ease-in-out
+}
+
+*[class$="utton"]:active{
+    transform:scale(0.90);
+    transition:all .2s ease-in-out
+}
+

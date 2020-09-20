@@ -1,19 +1,93 @@
-body {background-color:black}
-#wrapper {max-width:1000px; overflow:hidden; align-content:center; margin:0 auto}
+body {
+    background-color:black
+}
+
+#wrapper {
+    max-width:1000px; 
+    overflow:hidden; 
+    align-content:center; 
+    margin:0 auto
+}
 
 /*styl czasomierza*/
-#timer {color:aqua; font-size: 50px; font-style:bold; margin:0 auto; width:250px; text-align:center}
-#hour {display:inline-block}
-#minute {display:inline-block; vertical-align:top}
-#second {display:inline-block; vertical-align:top}
-.between {display:inline-block; vertical-align:top}
+#timer {
+    color:aqua; 
+    font-size: 50px; 
+    font-style:bold; 
+    margin:0 auto; 
+    width:250px; 
+    text-align:center
+}
+
+.time {
+    display:inline-block
+}
+
+.time:not(#hour) {
+    vertical-align:top
+}
 
 /*styl przycisków*/
-.row {margin:10px auto; width:300px}
-#ten{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique}
-#twenty{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique}
-#thirty{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique}
-#forty{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique}
-#fifty{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique}
-#sixty{background-color:aqua; display:inline-block; vertical-align:top; margin:0 15px; width:80px; padding:20px; font-size:30px; font-style:oblique}
-#stop{background-color:aqua; margin: 0 auto; vertical-align:top; width:230px; padding:20px; font-size:30px; font-style:oblique; text-align:center}
+.row {
+    margin:10px auto; 
+    width:300px; 
+    text-align:center
+}
+
+.smallButton{
+    display:inline-block; 
+    vertical-align:top; 
+    margin:0 15px; 
+    width:80px; 
+    padding:20px; 
+    font-size:30px; 
+    font-style:oblique
+}
+
+.button{
+    margin: 0 auto; 
+    vertical-align:top; 
+    width:230px; 
+    padding:20px; 
+    font-size:30px; 
+    font-style:oblique; 
+    text-align:center
+}
+
+*[class$="utton"]{
+    background:linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(29,231,222,1) 39%, rgba(0,212,255,1) 100%);
+    cursor:pointer
+}
+
+*[class$="utton"]:hover{
+    transform:scale(0.95);
+    transition:all .2s ease-in-out
+}
+
+*[class$="utton"]:active{
+    transform:scale(0.90);
+    transition:all .2s ease-in-out
+}
+
+.preButton{ 
+    margin: 10px 5px; 
+    display:inline-block; 
+    width:80px; 
+    padding:auto; 
+    font-size:20px; 
+    font-style:oblique; 
+    text-align:center
+}
+
+/*styl presetów*/
+
+.input {
+    width:50px
+}
+
+.inpBlock {
+    color:aqua; 
+    width:50px; 
+    display:inline-block; 
+    margin:10px 5px 10px 5px
+}

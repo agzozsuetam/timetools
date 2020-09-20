@@ -9,17 +9,39 @@
 <body>
     <div id="wrapper">
         <div id="timer">
-            <p id="hour">00</p>
-            <p class="between">:</p>
-            <p id="minute">00</p>
-            <p class="between">:</p>
-            <p id="second">00</p>
+            <p class="time" id="hour">00</p>
+            <p class="time">:</p>
+            <p class="time" id="minute">00</p>
+            <p class="time">:</p>
+            <p class="time" id="second">00</p>
         </div>
-        <div class="row"><p id="ten">10 sec</p><p id="forty">40 sec</p></div>
-        <div class="row"><p id="twenty">20 sec</p><p id="fifty">50 sec</p></div>
-        <div class="row"><p id="thirty">30 sec</p><p id="sixty">60 sec</p></div>
-        <div id="stop">STOP</div>
+        <div class="row"><p class="smallButton" id="ten">10 sec</p><p class="smallButton" id="forty">40 sec</p></div>
+        <div class="row"><p class="smallButton" id="twenty">20 sec</p><p class="smallButton" id="fifty">50 sec</p></div>
+        <div class="row"><p class="smallButton" id="thirty">30 sec</p><p class="smallButton" id="sixty">60 sec</p></div>
+        <div class="button" id="stop">STOP</div>
+        <div class="row" id="preset1">
+            <div class="inpBlock">
+                <p class="inpDesc">Hours</p>
+                <input type="text" value="0" class="input" id="preHr1">
+            </div>
+            <div class="inpBlock">
+                <p class="inpDesc">Minutes</p>
+                <input type="text" value="0" class="input" id="preMin1">
+            </div>
+            <div class="inpBlock">
+                <p class="inpDesc">Seconds</p>
+                <input type="text" value="0" class="input" id="preSec1">
+            </div>
+            <div class="preButton" id="pre1">
+                <p>START</p>
+            </div>
+        </div>
+        <div class = row>
+            <div class="preButton" id="addPre">
+                <p>ADD</p>
+            </div>
+        </div>
     </div>
-    <script src="js/stopwatch.js"></script>
+    <script src="js/timer.js"></script>
     </body>
 </html>
